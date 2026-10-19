@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+# Preserve CP1251 fixtures and CRLF bytes.
+demo/samples/*.txt -text
